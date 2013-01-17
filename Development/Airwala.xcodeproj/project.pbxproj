@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6097789B164B74DB003F110C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6097789A164B74DB003F110C /* UIKit.framework */; };
+		6097789D164B74DB003F110C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6097789C164B74DB003F110C /* Foundation.framework */; };
+		6097789F164B74DB003F110C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6097789E164B74DB003F110C /* CoreGraphics.framework */; };
+		609778A5164B74DB003F110C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609778A3164B74DB003F110C /* InfoPlist.strings */; };
+		609778A7164B74DB003F110C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609778A6164B74DB003F110C /* main.m */; };
+		609778AB164B74DB003F110C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609778AA164B74DB003F110C /* AppDelegate.m */; };
+		609778AE164B74DB003F110C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609778AD164B74DB003F110C /* ViewController.m */; };
+		609778B1164B74DB003F110C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609778AF164B74DB003F110C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60977896164B74DB003F110C /* Airwala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airwala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6097789A164B74DB003F110C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6097789C164B74DB003F110C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6097789E164B74DB003F110C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		609778A2164B74DB003F110C /* Airwala-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Airwala-Info.plist"; sourceTree = "<group>"; };
+		609778A4164B74DB003F110C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		609778A6164B74DB003F110C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		609778A8164B74DB003F110C /* Airwala-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airwala-Prefix.pch"; sourceTree = "<group>"; };
+		609778A9164B74DB003F110C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		609778AA164B74DB003F110C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		609778AC164B74DB003F110C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		609778AD164B74DB003F110C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		609778B0164B74DB003F110C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60977893164B74DB003F110C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6097789B164B74DB003F110C /* UIKit.framework in Frameworks */,
+				6097789D164B74DB003F110C /* Foundation.framework in Frameworks */,
+				6097789F164B74DB003F110C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6097788B164B74DB003F110C = {
+			isa = PBXGroup;
+			children = (
+				609778A0164B74DB003F110C /* Airwala */,
+				60977899164B74DB003F110C /* Frameworks */,
+				60977897164B74DB003F110C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60977897164B74DB003F110C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60977896164B74DB003F110C /* Airwala.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60977899164B74DB003F110C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6097789A164B74DB003F110C /* UIKit.framework */,
+				6097789C164B74DB003F110C /* Foundation.framework */,
+				6097789E164B74DB003F110C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609778A0164B74DB003F110C /* Airwala */ = {
+			isa = PBXGroup;
+			children = (
+				609778A9164B74DB003F110C /* AppDelegate.h */,
+				609778AA164B74DB003F110C /* AppDelegate.m */,
+				609778AC164B74DB003F110C /* ViewController.h */,
+				609778AD164B74DB003F110C /* ViewController.m */,
+				609778AF164B74DB003F110C /* ViewController.xib */,
+				609778A1164B74DB003F110C /* Supporting Files */,
+			);
+			path = Airwala;
+			sourceTree = "<group>";
+		};
+		609778A1164B74DB003F110C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				609778A2164B74DB003F110C /* Airwala-Info.plist */,
+				609778A3164B74DB003F110C /* InfoPlist.strings */,
+				609778A6164B74DB003F110C /* main.m */,
+				609778A8164B74DB003F110C /* Airwala-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60977895164B74DB003F110C /* Airwala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609778B4164B74DB003F110C /* Build configuration list for PBXNativeTarget "Airwala" */;
+			buildPhases = (
+				60977892164B74DB003F110C /* Sources */,
+				60977893164B74DB003F110C /* Frameworks */,
+				60977894164B74DB003F110C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airwala;
+			productName = Airwala;
+			productReference = 60977896164B74DB003F110C /* Airwala.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6097788D164B74DB003F110C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = startupsourcing;
+			};
+			buildConfigurationList = 60977890164B74DB003F110C /* Build configuration list for PBXProject "Airwala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6097788B164B74DB003F110C;
+			productRefGroup = 60977897164B74DB003F110C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60977895164B74DB003F110C /* Airwala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60977894164B74DB003F110C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609778A5164B74DB003F110C /* InfoPlist.strings in Resources */,
+				609778B1164B74DB003F110C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60977892164B74DB003F110C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609778A7164B74DB003F110C /* main.m in Sources */,
+				609778AB164B74DB003F110C /* AppDelegate.m in Sources */,
+				609778AE164B74DB003F110C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		609778A3164B74DB003F110C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609778A4164B74DB003F110C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		609778AF164B74DB003F110C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609778B0164B74DB003F110C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		609778B2164B74DB003F110C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		609778B3164B74DB003F110C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609778B5164B74DB003F110C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airwala/Airwala-Prefix.pch";
+				INFOPLIST_FILE = "Airwala/Airwala-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		609778B6164B74DB003F110C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airwala/Airwala-Prefix.pch";
+				INFOPLIST_FILE = "Airwala/Airwala-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60977890164B74DB003F110C /* Build configuration list for PBXProject "Airwala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609778B2164B74DB003F110C /* Debug */,
+				609778B3164B74DB003F110C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609778B4164B74DB003F110C /* Build configuration list for PBXNativeTarget "Airwala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609778B5164B74DB003F110C /* Debug */,
+				609778B6164B74DB003F110C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6097788D164B74DB003F110C /* Project object */;
+}
