@@ -22,6 +22,8 @@
 		609778AB164B74DB003F110C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609778AA164B74DB003F110C /* AppDelegate.m */; };
 		609778AE164B74DB003F110C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609778AD164B74DB003F110C /* ViewController.m */; };
 		609778B1164B74DB003F110C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609778AF164B74DB003F110C /* ViewController.xib */; };
+		60A9556918602182001F7966 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60A9556718602182001F7966 /* 12.jpg */; };
+		60A9556A18602182001F7966 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60A9556818602182001F7966 /* 123.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		609778AC164B74DB003F110C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		609778AD164B74DB003F110C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		609778B0164B74DB003F110C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		60A9556718602182001F7966 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		60A9556818602182001F7966 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		609778A0164B74DB003F110C /* Airwala */ = {
 			isa = PBXGroup;
 			children = (
+				60A9556718602182001F7966 /* 12.jpg */,
+				60A9556818602182001F7966 /* 123.jpg */,
 				609778A9164B74DB003F110C /* AppDelegate.h */,
 				609778AA164B74DB003F110C /* AppDelegate.m */,
 				609778AC164B74DB003F110C /* ViewController.h */,
@@ -177,8 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A9556A18602182001F7966 /* 123.jpg in Resources */,
 				609778A5164B74DB003F110C /* InfoPlist.strings in Resources */,
 				609778B1164B74DB003F110C /* ViewController.xib in Resources */,
+				60A9556918602182001F7966 /* 12.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
